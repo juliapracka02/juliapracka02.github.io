@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f2e9f9;
+    color: rgb(0, 0, 0);
+    scroll-behavior: smooth;
+  }
+img{
+    max-width: 10%;
+    border-radius: 8px;
+}
+
+.container{
+    max-width: 1340px;
+    margin: 0 auto;
+}
+header {
+  background-color:#f2e9f9;
+  color: #FEC9FF;
+  text-align: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color:#000000;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: rgb(147, 100, 212);
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 100%;
+    padding: 50px;
+  }
+
+.hero{
+    padding: 3rem 1rem;
+    
+}
+.hero h1{
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-bottom: 0.2rem;
+}
+
+.hero p{
+    margin-bottom: 4%;
+    line-height: 3.2rem;
+}
+
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 0px 1px 0px 0px #333;
+    max-width:1340px;
+    margin: 0 auto;
+ }
+
+ .logo{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.4rem;
+ }
+
+ span{
+    background: -webkit-linear-gradient(#FEC9FF, rgb(83, 30, 158));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn{
+    background-color: transparent;
+    border: 2px solid rgb(190, 143, 255);
+    color: rgb(190, 143, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: .4rem;
+    font-weight: 700;
+    transition: .3s;
+    margin-bottom: 20px;
+  }
+  .btn:hover{
+    background-color: rgb(228, 214, 248);
+}
+
+section{
+  margin: 40px 0;
+
+}
+
+ 
+
+  footer {
+    background-color:rgb(255, 255, 255);
+    color: #000000;
+    text-align: center;
+    padding: 10px 0;
+   
+}
+footer p {
+  margin: 10px 0;
+}
+
+  .project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid rgb(190, 143, 255); 
+    border-radius: 4px; 
+}
+
+.project h3 {
+    margin: 10px 0;
+}
+
+.project p {
+    color: #000000;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="nav-bar">
+        <a class="logo" href="#">J<span>P</span></a>
+        <header>
+          <div class="container">
+              <nav>
+                  <ul>
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#projects">Projects</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                  </ul>
+              </nav>
+          </div>
+      </header>
+       
+    </header>
+
+<!--hero-section-->
+        
+<div class="container">
+<div class="hero">
+  <h1>Julia Pracka </h1>
+    <h1><span>Web Design Student</span></h1>
+    <p>I am studying at Collegium Civitas University in Warsaw, in the field of Sociology, Analytics and Web Design, along with the subjects of Marketing and Advertising.
+        </p>
+        
+        <h2>My projects</h2>
+    
+    <section id="projects">
+      <div class="container">
+        
+
+          <div class="project">
+              <img src="img/hero-section-projekt.png" alt="Projekt 1">
+              <h3>Hero-section Lighting</h3>
+              <p>Hero-section project made for university classes. </p>
+          </div>
+
+          <div class="project">
+              <img src="img/hero_section_1.png" alt="Projekt 2">
+              <h3>Hero-section</h3>
+              <p>Hero-section project to work on.</p>
+          </div>
+   
+          <a href="" class="btn">^</a>
+
+
+
+
+        </div>
+      </div> 
+      <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: julia.pracka2002@gmail.com</p>
+            <p>LinkedIn: linkedin.com/in/juliapracka</p>
+            <p>Phone number: +48 365823631</p>
+        </div>
+    </section>
+
+
+</div>
+</div>
+<footer>
+  <div class="container">
+      <p>&copy; 2024 Julia Pracka. All rights reserved.</p>
+  </div>
+</footer>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+      document.querySelectorAll('nav a').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+              e.preventDefault();
+
+              const targetId = this.getAttribute('href');
+              const targetElement = document.querySelector(targetId);
+
+              window.scrollTo({
+                  top: targetElement.offsetTop - document.querySelector('header').offsetHeight,
+                  behavior: 'smooth'
+              });
+          });
+      });
+  });
+</script>
+
+
+</body>
